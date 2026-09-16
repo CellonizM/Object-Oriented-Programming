@@ -8,8 +8,8 @@ package praktikum5;
  *
  * @author LOQ
  */
-public class sepedaMotor extends kendaraanDarat {
-    public String jenisMesin;
+public class sepedaMotor extends kendaraanDarat{
+ public String jenisMesin;
     
     public sepedaMotor(String nama, int kecepatan, int jumRoda, String jenisMesin){
         super(nama,kecepatan, jumRoda);
@@ -17,12 +17,12 @@ public class sepedaMotor extends kendaraanDarat {
     }
    
     
-    @Override
+   @Override
     public void tampilInfo(){
       super.tampilInfo();
       System.out.println("Jumlah roda kendaraan: "+jumRoda);
       System.out.println("Jenis mesin kendaraan: "+jenisMesin);
       System.out.println("Motor ini dalam kondisi menyala");
           
-    }
+    }   
 }

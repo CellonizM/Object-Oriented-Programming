@@ -8,7 +8,7 @@ package praktikum5;
  *
  * @author LOQ
  */
-public class kucing extends hewan {
+public class kucing extends hewan{
    private String ras;
     
    public kucing(String nama, String jenis, String ras){
@@ -23,6 +23,6 @@ public class kucing extends hewan {
    public void tampilInfo(){
        super.tampilInfo();
        System.out.println("Ras Kucing: "+ras);
-       suara();
+       
    }
 }

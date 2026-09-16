@@ -9,7 +9,7 @@ package praktikum5;
  * @author LOQ
  */
 public class mobil extends kendaraanDarat{
-    public int jumPintu;
+   public int jumPintu;
     
     public mobil(String nama, int kecepatan, int jumRoda, int jumPintu){
         super(nama, kecepatan, jumRoda);
@@ -35,5 +35,5 @@ public class mobil extends kendaraanDarat{
       System.out.println("Jumlah roda Kendaraan: "+jumRoda);
       System.out.println("Mobil ini dalam kondisi menyala");
            
-    }
+    } 
 }

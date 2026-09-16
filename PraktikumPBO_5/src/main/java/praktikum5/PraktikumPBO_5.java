@@ -11,27 +11,18 @@ package praktikum5;
 public class PraktikumPBO_5 {
 
     public static void main(String[] args) {
+       //Obyek Hewan
        /*
-       mobil mobil1= new mobil("Hyundai",120,4);
-       mobil1.tampilInfo();
-       System.out.println();
-       sepedaMotor motor1 = new sepedaMotor("Honda",150,"CBR-RR");
-       motor1.tampilInfo();
-       */
-       /*
-       kucing kucing = new kucing("Goldi","Feline","ragdoll");
+        kucing kucing = new kucing("Goldi","Feline","ragdoll");
        kucing.tampilInfo();
-       System.out.println();
-       
+       System.out.println(); // buat spasi
        anjing anjing = new anjing("Herbi","Canine",5);
        anjing.tampilInfo();
        */
-       
-       mobil mobil = new mobil("mobil",150,4,4);
+       mobil mobil = new mobil("Hyundai",150,4,4);
        mobil.tampilInfo();
-        System.out.println();
-       sepedaMotor motor = new sepedaMotor("Honda", 160, 2, "CBR-RR");
+       System.out.println();
+       sepedaMotor motor = new sepedaMotor("Honda",160,2,"CBR-RR");
        motor.tampilInfo();
-       
     }
 }

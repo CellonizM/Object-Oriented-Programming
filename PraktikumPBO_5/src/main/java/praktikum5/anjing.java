@@ -8,10 +8,10 @@ package praktikum5;
  *
  * @author LOQ
  */
-public class anjing extends hewan {
+public class anjing extends hewan{
     private int umur;
     
-    public anjing(String nama, String jenis, int umur){
+   public anjing(String nama, String jenis, int umur){
         super(nama, jenis);
         this.umur=umur;
     }
@@ -22,6 +22,6 @@ public class anjing extends hewan {
     public void tampilInfo(){
         super.tampilInfo();
         System.out.println("Umur "+getNama()+" "+umur+" Tahun");
-        suara();
+        
     }
 }
