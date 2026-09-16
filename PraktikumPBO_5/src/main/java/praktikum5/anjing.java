@@ -22,6 +22,6 @@ public class anjing extends hewan {
     public void tampilInfo(){
         super.tampilInfo();
         System.out.println("Umur "+getNama()+" "+umur+" Tahun");
-        
+        suara();
     }
 }

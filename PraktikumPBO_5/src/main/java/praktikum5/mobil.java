@@ -31,7 +31,8 @@ public class mobil extends kendaraanDarat{
     @Override
     public void tampilInfo(){
       super.tampilInfo();
-      System.out.println("Jumlah roda kendaraan darat ini: "+jumRoda);
+      System.out.println("Jumlah pintu Kendaraan: "+getJumPintu());
+      System.out.println("Jumlah roda Kendaraan: "+jumRoda);
       System.out.println("Mobil ini dalam kondisi menyala");
            
     }

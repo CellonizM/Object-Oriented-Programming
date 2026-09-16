@@ -21,13 +21,17 @@ public class PraktikumPBO_5 {
        /*
        kucing kucing = new kucing("Goldi","Feline","ragdoll");
        kucing.tampilInfo();
-       kucing.suara();
        System.out.println();
+       
        anjing anjing = new anjing("Herbi","Canine",5);
        anjing.tampilInfo();
-       anjing.suara();
        */
+       
        mobil mobil = new mobil("mobil",150,4,4);
        mobil.tampilInfo();
+        System.out.println();
+       sepedaMotor motor = new sepedaMotor("Honda", 160, 2, "CBR-RR");
+       motor.tampilInfo();
+       
     }
 }

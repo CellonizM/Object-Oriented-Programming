@@ -23,6 +23,6 @@ public class kucing extends hewan {
    public void tampilInfo(){
        super.tampilInfo();
        System.out.println("Ras Kucing: "+ras);
-       
+       suara();
    }
 }
