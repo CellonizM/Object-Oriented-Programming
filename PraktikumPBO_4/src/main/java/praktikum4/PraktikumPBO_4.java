@@ -24,10 +24,11 @@ public class PraktikumPBO_4 {
     System.out.println(karyawan);
     karyawan.setNama("Reza");
     System.out.println(karyawan);
+    /*
     System.out.println(karyawan.nama);
     System.out.println(karyawan.usia);
     System.out.println(karyawan.gaji);
-    
+    */
     
     }
 }
