@@ -10,6 +10,13 @@ package praktikum6;
  */
 public class PraktikumPBO_6fix {
     public static void main(String[] args) {
+    /*  
+    hewan kucing = new hewan();
+    kucing.bersuara();
+    System.out.println();
+    kucing.makan("ikan");
+    kucing.makan("ikan",2);
+    */
     /*    
     kucing kucing1 = new kucing();
     kucing1.bersuara();
