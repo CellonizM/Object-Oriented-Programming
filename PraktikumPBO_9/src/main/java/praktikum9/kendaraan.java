@@ -9,8 +9,10 @@ package praktikum9;
  * @author LOQ
  */
 abstract class kendaraan {
+    //Metode tanpa implementasi
     abstract void berjalan();
     
+    //Metode dengan implementasi
     void info(){
         System.out.println("Ini adalah kendaraan.");
     }
